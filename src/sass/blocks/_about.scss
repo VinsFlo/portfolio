@@ -23,6 +23,7 @@
     &__title {
         position: relative;
         padding: 1px 0 0 12px;
+		color: black;
         @include before_circle;
     }
     &__text {
@@ -44,11 +45,19 @@
         &-circle {
             position: relative;
             padding: 15px 0 0 15px;
-            @include before_circle;
+			@include before_circle;
             &:before {
                 top: 0;
             }
         }
+		&-icon {
+			position: absolute;
+      	  	top: 50%;
+        	left: 50%;
+       		margin-right: -50%;
+        	transform: translate(-50%, -50%);
+
+		}
         &-text {
             margin-top: 6px;
             font-size: 12px;
