@@ -23,7 +23,7 @@
     }
     &__title {
         position: relative;
-        padding: 1px 0 0 12px;
+        padding: 0;
 		color: black;
         @include before_circle;
     }
